@@ -1,0 +1,24 @@
+Write-Up Answers
+
+Q1. What is multipart/form-data?
+Explain why files cannot be uploaded using normal JSON requests and why multipart/form-data is required.
+
+
+Q2. Why use UUID?
+Explain how UUID generates unique filenames and prevents uploaded files from overwriting one another.
+
+
+Q3. What validations did you implement?
+Include the exact validation code for:
+•	Allowed image extensions 
+•	Maximum file size 
+•	Missing file 
+•	Invalid file type 
+
+
+Q4. Where are uploaded files stored?
+Explain:
+•	Flask storage location 
+static/uploads/
+•	URL pattern 
+http://localhost:5000/static/uploads/<filename>
