@@ -14,7 +14,7 @@ bcrypt = Bcrypt(app)
 DB_CONFIG = {
     "host": "localhost",
     "user": "root",
-    "password": "nikhil@123",
+    "password": "Sasi@418",
     "database": "ecommerce"
 }
 
